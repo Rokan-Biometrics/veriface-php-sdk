@@ -1,0 +1,8 @@
+tests/ export-ignore
+*.iml export-ignore
+composer.lock export-ignore
+src/veriface/examples.php export-ignore
+.idea export-ignore
+*.tar export-ignore
+vendor export-ignore
+.gitattributes export-ignore

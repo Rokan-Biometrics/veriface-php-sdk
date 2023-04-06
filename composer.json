@@ -1,0 +1,23 @@
+{
+  "name": "veriface/veriface",
+  "description": "Implements current VeriFace API",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Tomasz Bielinski",
+      "email": "bielinski@veriface.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "veriface\\": "src"
+    }
+  }
+}
